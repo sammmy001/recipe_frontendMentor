@@ -1,0 +1,125 @@
+
+body{
+  color: hsl(30, 10%, 34%);
+  font-size: 20px;
+  padding: none;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 550;
+}
+.parent{
+  display:flex;
+  justify-content: center;
+}
+.container{
+  width: 375px;
+  background-color: white;
+}
+h1,h2{
+  font-family: 'Young Serif', serif;
+  font-weight: 200;
+}
+h1{
+  font-size: 40px;
+  color: hsl(24, 5%, 18%);
+}
+#para1{
+  line-height:30px;
+}
+h2, h3, td strong{
+  color: hsl(14, 45%, 36%);
+} 
+li{
+  color:hsl(14, 45%, 36%);
+}
+span{
+  color: hsl(30, 10%, 34%); 
+}
+ul {
+  line-height: 25px;
+}
+.shell{
+ background-color: hsl(330, 100%, 98%) ;
+ align-content: center;
+ width: 375px;
+}
+ul li{
+  margin-bottom:10px;
+}
+ol li{
+  margin-bottom:10px;
+  line-height:25px ;
+}
+ h3 {
+  color:hsl(332, 51%, 32%);
+  margin-left: 20px;
+}
+.inner li{
+  color:hsl(332, 51%, 32%);
+}
+.inner{
+  width: 68%;
+  padding: 10px ;
+}
+.inner2{
+  width: 80%;
+}
+.inner3{
+  width: 90%;
+}
+hr{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#nutrition{
+  width: 90%;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
+  border-bottom: 1px solid gray ;
+  padding: 15PX;
+  padding-left:25px ;
+}
+.last_table_row{
+  border-bottom: none;
+}
+
+/* desktop view */
+@media only screen and (min-width:700px){
+  body{
+    font-size: small;
+    line-height: normal;
+  }
+  .parent{
+    background-color:hsl(30, 54%, 90%) ;
+    padding: 50px;
+  }
+  .container{
+    width:500px;
+    height: 80%;
+    padding: 20px;
+    border-radius:8px;
+  }
+  img{
+    width: 100%;
+    border-radius:8px;
+  }
+  h1{
+    font-size:26px;
+  }
+  .shell{
+    width: 100%;
+  }
+  .inner2 li, .inner3 li{
+    margin-left:-25px ;
+  }
+  .inner2, .inner3{
+    width: 95%;
+  }
+  table strong{
+    margin-left: 70px;
+  }
+}
